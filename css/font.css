@@ -1,0 +1,67 @@
+/* Maven Pro Font */
+
+@font-face {
+    font-family: Maven-pro-regular;
+    /* 400 */
+    src: url(../font/MavenPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: Maven-pro-medium;
+    /* 500 */
+    src: url(../font/MavenPro-Medium.ttf);
+}
+
+@font-face {
+    font-family: Maven-pro-semibold;
+    /* 600 */
+    src: url(../font/MavenPro-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Maven-pro-bold;
+    /* 700 */
+    src: url(../font/MavenPro-Bold.ttf);
+}
+
+@font-face {
+    font-family: Maven-pro-extrabold;
+    /* 800 */
+    src: url(../font/MavenPro-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Maven-pro-black;
+    /* 900 */
+    src: url(../font/MavenPro-Black.ttf);
+}
+
+
+/* Ubuntu Font */
+
+@font-face {
+    font-family: Ubuntu-regular;
+    /* 400 */
+    src: url(../font/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+    font-family: Ubuntu-medium;
+    /* 500 */
+    src: url(../font/Ubuntu-Medium.ttf);
+}
+
+@font-face {
+    font-family: Ubuntu-bold;
+    /* 700 */
+    src: url(../font/Ubuntu-Bold.ttf);
+}
+
+/* Montserrat Font */
+
+@font-face {
+    font-family: Montserrat-regular;
+    /* 400 */
+    src: url(../font/Montserrat-Regular.ttf);
+}
+

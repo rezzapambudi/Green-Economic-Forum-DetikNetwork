@@ -1,0 +1,884 @@
+/* Global */
+
+/* Tracing */
+/* div{
+    border: 1px solid red;
+}
+
+p{
+    border: 1px solid green;
+}
+
+nav{
+    border: 1px solid blue;
+}
+
+section, footer{
+    border: 1px solid yellow;
+}
+
+body{
+    border: 1px solid magenta;
+} */
+/* End Tracing */
+
+.container {
+    max-width: 1140px !important;
+}
+
+body {
+    background: url(../img/bg_body.jpg);
+    background-size: cover;
+    background-position: bottom center;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* End Global */
+
+/* Navbar */
+.navbar-nav .nav-item .nav-link {
+    font-family: Maven-pro-regular;
+    color: #000000;
+    font-size: 14px;
+}
+
+
+
+
+/* End Navbar */
+
+/* Ticker */
+#ticker {
+    position: fixed;
+    top: 120px;
+    width: 100%;
+    max-width: 1111px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 9;
+}
+
+#ticker .col-12 {
+    position: relative;
+}
+
+.live-indicator-block {
+    width: 160px;
+    height: 32px;
+    right: 3%;
+    -webkit-box-shadow: 0px 2px 4px rgb(0 0 0 / 25%);
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 25%);
+    position: absolute;
+    background: linear-gradient(94.77deg, #18AE78 -5.56%, #9BE227 85.88%);
+    border-radius: 20px 5px;
+    cursor: pointer;
+}
+
+#ticker a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#ticker .close-btn {
+    position: relative;
+}
+
+#ticker .close-btn .fa {
+    position: relative;
+}
+
+#ticker .close-btn .fa::before {
+    position: absolute;
+}
+
+#ticker .close-btn a {
+    position: absolute;
+    right: -154px;
+    top: -25px;
+    color: #1a392e;
+    z-index: 1;
+}
+
+#ticker .scroll-btn {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.live-indicator-block .live-indicator {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 11px;
+    vertical-align: middle;
+    color: #000000;
+    line-height: 1;
+    vertical-align: middle;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.live-indicator-block .live-indicator .blink {
+    -webkit-animation: blinker 1s cubic-bezier(0.5, 0, 1, 1) infinite alternate;
+    animation: blinker 1s cubic-bezier(0.5, 0, 1, 1) infinite alternate;
+    font-size: 10px;
+    margin-right: 8px;
+    top: 10px;
+    vertical-align: baseline;
+    color: #F20000;
+}
+
+/* End Ticker */
+
+/* Jumbotron */
+.bg-intro {
+    background: url(../img/bg_intro.png);
+    background-size: cover;
+}
+
+#intro .display-3 {
+    font-family: Maven-pro-bold;
+    color: #FFFFFF;
+    font-size: 48px;
+}
+
+#intro .lead {
+    font-family: Maven-pro-medium;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+#intro .btn-primary {
+    background-color: #A6E51F;
+    border-color: #A6E51F;
+    color: #0D8B5E;
+    font-family: Ubuntu-medium;
+    font-size: 14px;
+}
+
+#intro .c_presented {
+    color: #FFFFFF;
+    font-family: Maven-pro-medium;
+    font-size: 14px;
+}
+
+.j_intro {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.d_presented_desktop {
+    display: block;
+}
+
+.d_presented_mobile {
+    display: none;
+}
+
+/* End Jumbotron */
+
+/* Section About */
+.d_about_1 {
+    padding-top: 110px;
+    padding-bottom: 60px;
+}
+
+.video_wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9, for an aspect ratio of 1:1 change to this value to 100% */
+}
+
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#about_1 p {
+    font-family: Maven-pro-regular;
+    font-size: 18px;
+}
+
+#about_1 p b {
+    font-family: Maven-pro-bold;
+    font-size: 18px;
+}
+
+#about_1 .lead {
+    font-family: Ubuntu-bold;
+    font-size: 36px;
+}
+
+#about_2 .card .card-body .card-title {
+    font-family: Ubuntu-bold;
+    font-size: 18px;
+}
+
+#about_2 .card .card-body .card-text {
+    font-family: Ubuntu-regular;
+    font-size: 14px;
+}
+
+#about_2 .card .card-body .c_share {
+    font-family: Maven-pro-regular;
+    font-size: 14px;
+}
+
+#about_2 .card {
+    height: 100%;
+}
+
+.c_share a i {
+    color: #1EBA82;
+    font-size: 20px;
+}
+
+#about_1 .bottom_line {
+    width: 80px !important;
+    color: #7CD73F;
+    height: 3px;
+}
+
+/* End Section About */
+
+/* Section didukung oleh */
+#sponsored {
+    display: block;
+}
+
+#sponsored_mobile {
+    display: none;
+}
+
+/* End Section didukung oleh */
+
+/* Section Ad_Carousel */
+#ad_carousel {
+    display: block;
+}
+
+#ad_carousel_mobile {
+    display: none;
+}
+
+/* End Section Ad_Carousel */
+
+/* Section Agenda */
+#agenda .lead {
+    font-family: Maven-pro-bold;
+    font-size: 48px;
+}
+
+#agenda .bottom_line {
+    width: 80px !important;
+    color: #7CD73F;
+    height: 3px;
+}
+
+#agenda .t_agenda .subtitle {
+    font-family: Maven-pro-bold;
+    font-size: 18px;
+    color: #1EBA82;
+}
+
+#agenda .t_agenda .categories {
+    font-family: Maven-pro-semibold;
+    font-size: 18px;
+    color: #626262;
+}
+
+#agenda .t_agenda .lead {
+    font-family: Maven-pro-bold;
+    font-size: 24px;
+    color: #3C3C3C;
+}
+
+#agenda .t_agenda .tab_date {
+    font-family: Maven-pro-bold;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+#agenda .t_agenda .tab_label {
+    font-family: Maven-pro-regular;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+#agenda .t_agenda .schedule .lead {
+    font-family: Maven-pro-bold;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+#agenda .t_agenda .schedule .lead img {
+    width: 25px;
+}
+
+#agenda .t_agenda .schedule .info {
+    font-family: Maven-pro-regular;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+#agenda .t_agenda .p_tanggal {
+    font-family: Maven-pro-regular;
+    font-size: 18px;
+    color: #3C3C3C;
+}
+
+#agenda .t_agenda .p_sub_tanggal {
+    font-family: Maven-pro-regular;
+    font-size: 14px;
+    color: #626262;
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+#agenda .d_agenda_content {
+    border: 1px solid #ccc;
+    border-radius: 20px 10px 20px 10px;
+}
+
+#agenda .t_agenda .lead {
+    font-size: 20px;
+}
+
+#agenda .t_agenda .card {
+    border: none;
+    background-color: #fff0 !important;
+}
+
+#agenda .t_agenda .card img {
+    /* width: 73px; */
+}
+
+#agenda .t_agenda .schedule .lead img {
+    width: 15px;
+}
+
+#agenda .t_agenda .card .card-title {
+    font-family: Maven-pro-bold;
+    font-size: 18px;
+    color: #0D8B5E;
+}
+
+#agenda .t_agenda .card .img-square-wrapper {
+    width: 100px;
+    height: 100px;
+}
+
+#agenda .t_agenda .card #d_keynote_1 {
+    background-image: url(../img/img_thumbnail_1.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#agenda .t_agenda .card #d_keynote_2 {
+    background-image: url(../img/img_thumbnail_agenda.png);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#agenda .t_agenda .card #d_speakers_1 {
+    background-image: url(../img/img_thumbnail_1.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#agenda .t_agenda .card #d_speakers_2 {
+    background-image: url(../img/img_thumbnail_agenda.png);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#agenda .t_agenda .card #d_speakers_3 {
+    background-image: url(../img/img_thumbnail_agenda.png);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#agenda .t_agenda .card #d_speakers_4 {
+    background-image: url(../img/img_thumbnail_agenda.png);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background: linear-gradient(348.41deg, #07704A 0.95%, #1EBA82 59.84%, #9FE324 121.81%);
+    width: 30%;
+    height: 870px;
+    border-radius: 50px 10px 50px 10px;
+
+}
+
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+    margin: 0%;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 4px;
+}
+
+.tab button:hover {
+    background-color: #7cd346;
+}
+
+.tab button.active {
+    background: linear-gradient(94.77deg, #18AE78 -5.56%, #9BE227 85.88%);
+}
+
+.tabcontent {
+    float: left;
+    padding: 0px 12px !important;
+    /* border: 1px solid #ccc; */
+    width: 70%;
+    height: auto;
+    /* border-radius: 50px 10px 50px 10px; */
+}
+
+#agenda .card .card-text{
+    font-family: Maven-pro-regular;
+    font-size: 18px;
+}
+
+/* End Section Agenda */
+
+/* Section Insight */
+#insight .lead {
+    font-family: Maven-pro-bold;
+    font-size: 48px;
+}
+
+#insight .card {
+    margin-bottom: 20px;
+    border: none;
+}
+
+#insight .card .card-body .card-title {
+    font-family: Maven-pro-bold;
+    font-size: 14px;
+    color: #0D8B5E;
+}
+
+#insight .card .card-body .card-text {
+    font-family: Maven-pro-regular;
+    font-size: 12px;
+    color: #898989;
+}
+
+#insight .btn-info {
+    font-family: Maven-pro-semibold;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #0D8B5E;
+}
+
+#insight .bottom_line {
+    width: 80px !important;
+    color: #7CD73F;
+    height: 3px;
+}
+
+#insight .btn-info {
+    border: none;
+}
+
+/* End Section Insight */
+
+/* Section Highlight */
+#highlight .lead {
+    font-family: Maven-pro-bold;
+    font-size: 48px;
+}
+
+#highlight .card {
+    margin-bottom: 20px;
+    border: none;
+}
+
+#highlight .card .card-body .card-title {
+    font-family: Maven-pro-bold;
+    font-size: 14px;
+    color: #0D8B5E;
+}
+
+#highlight .card .card-body .card-text {
+    font-family: Maven-pro-regular;
+    font-size: 12px;
+    color: #898989;
+}
+
+#highlight .btn-info {
+    font-family: Maven-pro-semibold;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #0D8B5E;
+}
+
+#highlight .btn-info {
+    border: none;
+}
+
+#highlight .bottom_line {
+    width: 80px !important;
+    color: #7CD73F;
+    height: 3px;
+}
+
+.duration {
+    position: absolute;
+    width: 54px;
+    height: 23px;
+    top: 4px;
+    right: 4px;
+    border-radius: 5px;
+    font-family: Montserrat-regular;
+    font-size: 14px;
+    text-align: center;
+    background: #00000099;
+    color: #FFFFFF;
+    padding-top: 1px;
+    z-index: 1;
+}
+
+.duration .icon-play-duration {
+    width: 10px;
+    height: 10px;
+}
+
+/* End Section Highlight */
+
+/* Footer */
+#footer {
+    background: #000000;
+    color: #FFFFFF;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#footer .logo-footer {
+    margin-bottom: 26px;
+    max-width: 205px;
+}
+
+#footer .about {
+    border-bottom: 1px solid #d8d8d8;
+    margin-bottom: 24px;
+}
+
+#footer .about p {
+    font-family: Maven-pro-regular;
+    font-size: 14px;
+    /* max-width: 350px; */
+    margin-bottom: 28px;
+}
+
+#footer .about .socmed-area {
+    position: relative;
+}
+
+#footer .about .socmed-area .nav {
+    position: absolute;
+    right: 0;
+    bottom: 28px;
+}
+
+#footer .copyright {
+    font-family: Maven-pro-regular;
+    font-size: 11px;
+}
+
+/* End Footer */
+
+/* responsive design */
+
+@media (max-width: 991px) {
+    .card-horizontal {
+        flex: 1 1 auto;
+        display: grid;
+    }
+
+    #agenda .t_agenda .card .img-square-wrapper {
+        width: 75px;
+        height: 75px;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        float: right !important;
+    }
+}
+
+@media (max-width: 575px) {
+    #about_1 .row img {
+        margin-bottom: 20px;
+    }  
+}
+
+@media (max-width: 480px) {
+
+    /* Ticker */
+    #ticker {
+        top: auto !important;
+        bottom: 100px !important;
+    }
+
+    #ticker .live-indicator-block {
+        width: 132px;
+        height: 31px;
+        right: 3%;
+    }
+
+    #ticker .live-indicator {
+        font-size: 10px;
+    }
+
+    #ticker .close-btn a {
+        right: -120px;
+        top: -25px;
+    }
+
+    /* End Ticker */
+
+    /* Jumbotron */
+    #intro .display-3 {
+        font-size: 18px;
+    }
+
+    #intro .lead {
+        font-size: 12px;
+    }
+
+    #intro .btn-primary {
+        font-size: 12px;
+    }
+
+    .d_presented_desktop {
+        display: none;
+    }
+
+    .d_presented_mobile {
+        display: block;
+    }
+
+    .j_intro {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+
+    #intro .d_presented_mobile {
+        position: absolute;
+    }
+
+    #intro .d_presented_mobile .c_presented {
+        position: absolute;
+        width: 168px;
+        left: 170px;
+        bottom: 0px;
+    }
+
+    .d_cta_j {
+        margin-top: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    /* End Jumbotron */
+
+    /* Section About */
+    .d_about_1 {
+        padding-top: 60px;
+    }
+
+    #about_1 .lead {
+        font-size: 24px;
+    }
+
+    #about_1 .bottom_line {
+        margin-bottom: 1rem !important;
+    }
+
+    #about_1 p {
+        font-size: 14px;
+    }
+
+    #about_1 p b {
+        font-size: 14px;
+    }
+
+    #about_1 .row img {
+        margin-bottom: 20px;
+    }
+
+    .d_about_2 {
+        padding-top: 0 !important;
+    }
+
+    #about_2 .d_video_wrapper {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #about_2 .card {
+        margin-top: 40px;
+    }
+
+    /* End Section About */
+
+    /* Section didukung oleh */
+    #sponsored {
+        display: none;
+    }
+
+    #sponsored_mobile {
+        display: block;
+    }
+
+    /* End Section didukung oleh */
+
+    /* Section carousel mobile */
+    #ad_carousel {
+        display: none;
+    }
+
+    #ad_carousel_mobile {
+        display: block;
+    }
+
+    #ad_carousel_mobile {
+        padding-top: 0px !important;
+    }
+
+    /* End Section carousel mobile */
+
+    /* Section agenda */
+    .tab {
+        height: 1180px;
+        border-radius: 20px 10px 20px 10px;
+    }
+
+    .tab button {
+        padding: 22px 10px;
+    }
+
+    .card-horizontal {
+        display: grid;
+    }
+
+    #agenda .lead {
+        font-size: 24px;
+        margin-bottom: 10px !important;
+    }
+
+    #agenda .t_agenda .schedule .lead {
+        font-size: 18px;
+    }
+
+    #agenda .t_agenda .tab_label {
+        font-size: 14px;
+    }
+
+    #agenda .card .card-body {
+        padding: 1rem 0rem;
+    }
+
+    /* End Section agenda */
+
+    /* Section insight */
+    #insight .lead {
+        font-size: 24px;
+        margin-bottom: 10px !important;
+    }
+
+    #insight .bottom_line {
+        margin-bottom: 2rem !important;
+        margin-top: 0;
+    }
+
+    /* End Section insight */
+
+    /* Section highlight */
+    #highlight .lead {
+        font-size: 24px;
+        margin-bottom: 10px !important;
+    }
+
+    #highlight .bottom_line {
+        margin-bottom: 2rem !important;
+        margin-top: 0;
+    }
+
+    /* End Section highlight */
+
+    /* footer */
+    #footer {
+        margin-top: 111px;
+        padding-top: 50px;
+        padding-bottom: 36px;
+    }
+
+    #footer .logo-footer {
+        text-align: center !important;
+        /* margin-left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%); */
+    }
+
+    #footer .about {
+        max-width: 360px;
+        margin: auto;
+    }
+
+    #footer .about p {
+        text-align: center;
+    }
+
+    #footer .about .socmed-area {
+        margin-bottom: 30px;
+    }
+
+    #footer .socmed-area .nav {
+        position: relative !important;
+        right: 0;
+        bottom: 0 !important;
+    }
+
+    #footer .copyright {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .d_img_logofooter {
+        text-align: center !important;
+    }
+
+    /* end footer */
+}
